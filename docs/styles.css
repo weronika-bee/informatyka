@@ -1,12 +1,8 @@
     html {
       scroll-behavior: smooth;
     }
-    body {
-      counter-reset: page;
-    }
+	
     section::after {
-      counter-increment: page;
-      content: "Strona " counter(page);
       display: block;
       text-align: right;
       color: #6c757d;
